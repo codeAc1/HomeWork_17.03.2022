@@ -9,5 +9,6 @@ namespace HomeWorkProduct.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public ICollection<Product> products { get; set; }
     }
 }

@@ -15,6 +15,16 @@
     <Compile Remove="Migrations\20220316174650_CreatedProductTableonline2.Designer.cs" />
     <Compile Remove="Migrations\20220317063714_CategoryTable.cs" />
     <Compile Remove="Migrations\20220317063714_CategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220317082421_adfk.cs" />
+    <Compile Remove="Migrations\20220317082421_adfk.Designer.cs" />
+    <Compile Remove="Migrations\20220317082544_adfk.cs" />
+    <Compile Remove="Migrations\20220317082544_adfk.Designer.cs" />
+    <Compile Remove="Migrations\20220317082643_adfk.cs" />
+    <Compile Remove="Migrations\20220317082643_adfk.Designer.cs" />
+    <Compile Remove="Migrations\20220317082746_adfk.cs" />
+    <Compile Remove="Migrations\20220317082746_adfk.Designer.cs" />
+    <Compile Remove="Migrations\20220317082858_adfk.cs" />
+    <Compile Remove="Migrations\20220317082858_adfk.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
