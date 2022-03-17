@@ -1,9 +1,17 @@
 ﻿@using HomeWorkProduct.Models;
-@model List<Product>
+@using HomeWorkProduct.ViewModels;
+@model HomeVM
 
-    <ul>
-        @foreach(Product product in Model)
-            {
-                <li>@product.Name @product.Price </li>
-            }
-    </ul>
+<ul>
+    @foreach (Product product in Model.Products)
+    {
+        <li>@product.Name @product.Price  <span>$</span></li>
+    }
+</ul>
+
+<ul>
+    @foreach (Category category in Model.Categories)
+    {
+        <li>@category.Id @category.Name  </li>
+    }
+</ul>

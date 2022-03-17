@@ -22,12 +22,13 @@ namespace HomeWorkProduct.Controllers
             List<Product> products = _context.Products.ToList();
             List<Category> categories = _context.Categories.ToList();
 
-            //HomeVM homeVM =new HomeVM
-            //{
-            //    Products=products
-            //}
+            HomeVM homeVM = new HomeVM
+            {
+                Products = products,
+                Categories = categories
+            };
 
-            return View();
+            return View(homeVM);
         }
     }
 }
