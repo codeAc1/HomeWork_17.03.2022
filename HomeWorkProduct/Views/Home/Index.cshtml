@@ -1,1 +1,9 @@
-﻿
+﻿@using HomeWorkProduct.Models;
+@model List<Product>
+
+    <ul>
+        @foreach(Product product in Model)
+            {
+                <li>@product.Name @product.Price </li>
+            }
+    </ul>

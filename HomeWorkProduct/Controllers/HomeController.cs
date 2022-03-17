@@ -1,5 +1,6 @@
 ﻿using HomeWorkProduct.DAL;
 using HomeWorkProduct.Models;
+using HomeWorkProduct.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,12 @@ namespace HomeWorkProduct.Controllers
         {
             
             List<Product> products = _context.Products.ToList();
+            List<Category> categories = _context.Categories.ToList();
+
+            //HomeVM homeVM =new HomeVM
+            //{
+            //    Products=products
+            //}
 
             return View();
         }
